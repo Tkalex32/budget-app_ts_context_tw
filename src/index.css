@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to right bottom, #22c55e, #3b82f6);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 0px;
+}
